@@ -13,7 +13,7 @@
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/lucent-sea/Remotely/master/Assets/Remotely_Icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/marzel1/docker-templates/main/marzel/img/remotely.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
