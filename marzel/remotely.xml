@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>remotely</Name>
+  <Repository>translucency/remotely</Repository>
+  <Registry>https://hub.docker.com/r/translucency/remotely/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/translucency/remotely/</Support>
+  <Project>https://remotely.one/</Project>
+  <Overview>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:5000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/lucent-sea/Remotely/master/Assets/Remotely_Icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1619787764</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>A remote control and remote scripting solution, built with .NET 5, Blazor, SignalR Core, and WebRTC.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5000</HostPort>
+        <ContainerPort>5000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/remotely</HostDir>
+      <ContainerDir>/remotely-data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Port" Target="5000" Default="5000" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="true" Mask="false">9280</Config>
+  <Config Name="Data" Target="/remotely-data" Default="/mnt/user/appdata/remotely" Mode="rw" Description="Container Path: /remotely-data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/remotely</Config>
+</Container>
