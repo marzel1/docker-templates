@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://hub.docker.com/r/translucency/remotely/</Support>
+  <Support>https://forums.unraid.net/topic/107813-support-marzel-remotely/</Support>
   <Project>https://remotely.one/</Project>
   <Overview>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
   <Category>Tools:</Category>
