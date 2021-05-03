@@ -1,6 +1,6 @@
 # Unraid Docker Templates
 
-If you have any problems or questions, send me a message or post in the support thread in the forum.
+  If you have any problems or questions, send me a message or write a post in the support thread in the forum.
 
 #### Unraid Forum Profil
 
