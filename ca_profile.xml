@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/marzel1/docker-templates/main/marzel/img/marzel.jpg</Icon>
+  <Profile>
+    Hobbyist self-hoster.
+  </Profile>
+  <WebPage>https://forums.unraid.net/profile/117249-marzel/</WebPage>
+  <Forum>https://forums.unraid.net/topic/107813-support-marzel-remotely/</Forum>
+</Maintainer>
